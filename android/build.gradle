@@ -10,6 +10,8 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://mobile-sdk-android.anyline.io/release/' }
+
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
